@@ -1,0 +1,13 @@
+department: /adminapi/department
+orgnizationAttacker: /adminapi/organization/attacker
+orgnizationVictim: /adminapi/organization/victim
+attackerGroup: /adminapi/attacker-group
+victimGroup: /adminapi/victim-group
+judgeGroup: /adminapi/judge_group
+createUser: /adminapi/create-user
+orgnization: /adminapi/organization
+orgnizationListType1: /adminapi/organization-list?type=1&
+orgnizationListType2: /adminapi/organization-list?type=2&
+victimOgnizationList: /adminapi/organization-list?key_word=&department_id=&type=2&
+deleteUsers: /adminapi/delete-users
+asset: /adminapi/asset

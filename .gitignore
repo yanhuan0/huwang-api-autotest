@@ -1,0 +1,14 @@
+/.metadata/
+*.war
+*.class
+*.jar
+*.ear
+
+#eclipse
+*.settings
+*.project
+*.classpath
+/test-output
+/target
+/targetConfig
+/log

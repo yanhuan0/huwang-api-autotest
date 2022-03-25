@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PeAttackerApi-Suite">
+  <test thread-count="1" name="PeAttacker-ApiTest">
+    <groups>
+      <run>
+        <include name= "InitTest"/>
+        <include name= "MultiAttackerCreateReports"/>
+        <include name= "MultiRetest"/>
+		
+  		<!--
+  		<include name= "MultiAttackerCreateReports"/>
+  		<include name= "MultiRetest"/>
+  		-->
+      </run>
+    </groups>
+    <classes>
+      <class name="penetration_TestCase.PeAttackerTestCases"/>
+    </classes>
+  </test>
+</suite>

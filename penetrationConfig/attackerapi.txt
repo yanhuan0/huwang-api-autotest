@@ -1,0 +1,10 @@
+active-project: /adminapi/user/active-project
+reportCreate: /projectapi/report/create?project_id=
+uploadFile: /adminapi/upload-file/upload-file
+report-index: /projectapi/report/index?page=1&page_size=10&project_id=
+Attacker_crumb: /adminapi/crumb
+Attacker-mode: /adminapi/report/attack-mode
+report_dict: /adminapi/report/dict
+tag_index: /adminapi/tag/index
+retest: /projectapi/retest/
+retest_index: /projectapi/retest?page_size=10&key_words=&project_id=
